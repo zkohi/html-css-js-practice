@@ -1,0 +1,90 @@
+@charset  "UTF-8"
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  background-color: #EDFFBE;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #D03C56;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header, .footer {
+  margin: 10px 20px;
+}
+
+.header, .footer {
+  height: 50px;
+}
+
+.main, .sidemenu {
+  height: 100%;
+}
+
+.header {
+  color: #32CD32;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.wrapper {
+  width: 1248px;
+}
+
+.main {
+  display: block;
+  float: right;
+  width: 1000px;
+  padding: 20px 10px 10px;
+  margin: 0px 20px 10px 10px;
+  background-color: #FFFFFF;
+}
+
+.sidemenu {
+  float: left;
+  width: 180px;
+  padding: 10px 10px 10px 30px;
+  margin: 0px 10px 10px 20px;
+  color: #FFFFFF;
+  background-color: #32CD32;
+  font-size: 1rem;
+}
+
+.sidemenu .list {
+  line-height: 1.5rem;
+  list-style-type: disc;
+}
+
+.main-title {
+  color: #32CD32;
+  padding: 10px 20px;
+  border: 1px solid #CC0000;
+}
+
+.contents {
+  margin: 10px 0px;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.footer {
+  width: 100%;
+}
