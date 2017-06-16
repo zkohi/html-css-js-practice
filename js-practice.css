@@ -1,0 +1,134 @@
+@charset  "UTF-8"
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  background-color: #EDFFBE;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #D03C56;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header, .footer {
+  margin: 10px 20px;
+}
+
+.header, .footer {
+  height: 50px;
+}
+
+.main, .sidemenu {
+  height: 100%;
+}
+
+.header {
+  color: #32CD32;
+  height: 60px;
+  width: 100%;
+}
+
+.wrapper {
+  width: 1248px;
+}
+
+.main {
+  display: block;
+  float: right;
+  width: 1000px;
+  padding: 20px 10px 10px;
+  margin: 0px 20px 10px 10px;
+  background-color: #FFFFFF;
+}
+
+.sidemenu {
+  float: left;
+  width: 180px;
+  padding: 10px 10px 10px 30px;
+  margin: 0px 10px 10px 20px;
+  color: #FFFFFF;
+  background-color: #32CD32;
+  font-size: 1rem;
+}
+
+.sidemenu .list {
+  line-height: 1.5rem;
+  list-style-type: disc;
+}
+
+.main-title {
+  color: #32CD32;
+  padding: 10px 20px;
+  border: 1px solid #CC0000;
+}
+
+.contents {
+  margin: 10px 0px;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.footer {
+  width: 100%;
+}
+
+.global-nav {
+  background-color: #D3D3D3;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.global-nav .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.global-nav .nav-item a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: 0.15s;
+}
+
+.global-nav .nav-item.active a,
+.global-nav .nav-item a:hover {
+  background-color: #D03C56;
+  color: #FFF;
+}
+
+.global-nav .nav-text {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 100%;
+  top: 0;
+  opacity: 0;
+  transition: top 220ms ease-in-out;
+  -webkit-transition: top 220ms ease-in-out;
+}
+
+.global-nav .nav-text.active {
+  top: 80px;
+  opacity: 1;
+}
