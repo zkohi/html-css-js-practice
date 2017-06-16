@@ -1,9 +1,10 @@
 $(function () {
-  var navItem = $('.nav-item');
-  var navText = $('.nav-text');
+  var navMenu = $('.nav-menu');
+  var globalNav = $('.global-nav');
 
-  navItem.click(function () {
-    navText.toggleClass('active');
-    navItem.toggleClass('active');
+  navMenu.click(function () {
+    navMenu.toggleClass('active');
+    globalNav.toggleClass('active');
   });
+
 });
