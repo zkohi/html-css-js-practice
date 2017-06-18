@@ -179,3 +179,19 @@ a:link, a:visited, a:hover, a:active {
   top: 30px;
   opacity: 1;
 }
+
+.fixed-box {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100px;
+  height: 100px;
+  top:100px;
+  left:1000px;
+  background-color: #00FFFF;
+}
+
+.fixed-box .inner {
+  text-align: center;
+  height: 50%;
+}
