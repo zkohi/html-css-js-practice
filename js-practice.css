@@ -92,21 +92,19 @@ a:link, a:visited, a:hover, a:active {
   position: relative;
   background-color: #D3D3D3;
   text-align: center;
-  z-index: 1000;
 }
 
 .global-nav .nav-item,
 .global-nav .nav-menu
 {
   position: relative;
-  z-index: 2;
   display: inline-block;
   margin: 0 10px;
 }
 
 .global-nav .nav-menu a {
   display: inline-block;
-  width: 100px;
+  width: 150px;
   height: 30px;
   line-height: 30px;
   text-align: center;
@@ -125,13 +123,12 @@ a:link, a:visited, a:hover, a:active {
 
 .nav-item-text {
   position: absolute;
-  z-index: 1;
   background-color: #FFFFFF;
   width: 100%;
   top: 30px;
   opacity: 1;
-  transition: bottom 220ms ease-in-out;
-  -webkit-transition: bottom 220ms ease-in-out;
+  transition: top 220ms ease-in-out;
+  -webkit-transition: top 220ms ease-in-out;
 }
 
 .global-nav.active .nav-item-text {
@@ -143,7 +140,6 @@ a:link, a:visited, a:hover, a:active {
   background-color: #FFFFFF;
   width: 100%;
   opacity: 0;
-  z-index: 1;
   transition: top 220ms ease-in-out;
   -webkit-transition: top 220ms ease-in-out;
 }
