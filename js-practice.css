@@ -16,7 +16,6 @@ body {
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #D03C56;
   text-decoration: none;
 }
 
@@ -99,32 +98,6 @@ a:link, a:visited, a:hover, a:active {
 .global-nav .nav-item,
 .global-nav .nav-menu
 {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.global-nav .nav-menu a {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 8px;
-  color: #666;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  transition: 0.15s;
-}
-
-.global-nav .nav-menu.active a,
-.global-nav .nav-menu a:hover {
-  background-color: #0000CD;
-  color: #FFF;
-}
-
-.global-nav .nav-item,
-.global-nav .nav-menu
-{
   position: relative;
   z-index: 2;
   display: inline-block;
@@ -184,7 +157,7 @@ a:link, a:visited, a:hover, a:active {
   position: fixed;
   top: 0;
   z-index: 9999;
-  width: 100px;
+  width: 150px;
   height: 100px;
   top:100px;
   left:1000px;
