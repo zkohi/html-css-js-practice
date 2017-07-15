@@ -44,7 +44,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .wrapper {
-  width: 100%;
+  width: 1248px;
 }
 
 .main {
@@ -155,8 +155,8 @@ a:link, a:visited, a:hover, a:active {
   z-index: 9999;
   width: 150px;
   height: 100px;
-  top:100px;
-  left:1000px;
+  top: 250px;
+  left: 20px;
   background-color: #00FFFF;
 }
 
